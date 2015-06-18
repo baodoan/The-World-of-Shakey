@@ -1,7 +1,5 @@
 /* BAO DOAN
-   CIS 142
-   Truman College
-   FINAL PROGRAMMING ASSIGNMENT: THE WONDERFUL WORLD OF SHAKEY
+   THE WONDERFUL WORLD OF SHAKEY
     Desciption; A program to direct an imaginary robot through some simple tasks
 */
 
@@ -268,7 +266,7 @@ else
 /*Step. A Function used to step to the NEXT POSITION*/
 bool step(void)
 {
-//There is tree => Ouch and don’t move
+//There is tree => Ouch and donâ€™t move
 if (*next == 'T')
     {
     printf("Ouch!!! You gore a tree\n");
@@ -279,7 +277,7 @@ else
 {
     //{If there is flower => Print the response
     if (*next == 'F')
-    printf("OOOOH, you made me step on a flower…… poor flower\n");
+    printf("OOOOH, you made me step on a flowerâ€¦â€¦ poor flower\n");
 
     /*Implement new POSITION*/
     *position = '-';
